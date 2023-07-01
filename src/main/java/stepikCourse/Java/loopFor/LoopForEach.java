@@ -1,4 +1,4 @@
-package stepikCourse.loopForEach;
+package stepikCourse.Java.loopFor;
 
 public class LoopForEach {
     public static void main(String[] args) {
