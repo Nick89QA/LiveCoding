@@ -1,8 +1,17 @@
-package stepikCourse.Java.interfaces;
+package stepikCourse.Java.interfacesAndAbstract;
 
-public class Test1 {
+public class AbstractTest {
     public static void main(String[] args) {
-        Figura f = new Figura();
+        Kvadrat k = new Kvadrat();
+        k.perimetr();
+        k.ploshad();
+        Pryamougolnik p = new Pryamougolnik();
+        p.perimetr();
+        p.ploshad();
+        Okrujnost o = new Okrujnost();
+        o.perimetr();
+        o.ploshad();
+
 
     }
 }
@@ -42,7 +51,7 @@ class Pryamougolnik extends Figura {
     int storona2 = 5;
 
     public void perimetr() { //реализовали периметр с абстрактного класса
-        System.out.println("Perimetr pryamougolnika = " + 2 * (storona1 + storona2);
+        System.out.println("Perimetr pryamougolnika = " + 2 * (storona1 + storona2));
     }
 
     public void ploshad() {
@@ -52,18 +61,30 @@ class Pryamougolnik extends Figura {
 
 }
 
+abstract class k extends Figura {
+
+}
+
 class Okrujnost extends Figura {
 
     int kolichestvoStoron = 4;
-    int storona1 = 8;
-    int storona2 = 5;
+    int radius = 3;
 
     public void perimetr() { //реализовали периметр с абстрактного класса
-        System.out.println("Perimetr pryamougolnika = " + 2 * (storona1 + storona2);
+        System.out.println("Perimetr okrujnosti = " + 2 * 3.14 * radius);
     }
 
     public void ploshad() {
-        System.out.println("Ploshad pryamougolnika = " + storona1 * storona2);
+        System.out.println("Ploshad okrujnosti = " + 3.14 * radius);
 
+    }
+}
+
+/**
+ * если наследуемый класс будет абстрактный то исчезнет ошибка компиляции
+ */
+abstract class Chetirechugolnik extends Figura {
+    void def() {
+        System.out.println("eto cheturechugolnick");
     }
 }
