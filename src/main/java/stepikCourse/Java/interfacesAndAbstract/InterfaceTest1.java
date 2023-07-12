@@ -1,5 +1,13 @@
 package stepikCourse.Java.interfacesAndAbstract;
 
+/**
+ * невозможно создать обьект интерфейса потому что это не класс
+ * у интерфейса нет конструктора
+ * методы не могут быть final так как они должны быть перезаписаны
+ * если клас который имплементировал interface не перезаписал все методы то он должен быть abstract
+ *
+ */
+
 public class InterfaceTest1 {
     public static void main(String[] args) {
         Teacher t = new Teacher();
@@ -9,6 +17,8 @@ public class InterfaceTest1 {
         d.pomosh();
         d.swim();
         d.tushitPojar();
+        d.testForConstanta();
+
     }
 
 }
@@ -40,10 +50,13 @@ class Employee {
 /**
  * в классе Driver происходит множественная имплементация интерфейсов но не затронуто extends
  */
- class Driver extends Employee implements Help_able, Swim_able {
+ class Driver extends Employee implements Help_able, Swim_able, Test1 {
     String nazvanieMashini;
     void vodit() {
         System.out.println("Vodit");
+    }
+    void testForConstanta(){
+        System.out.println(a);
     }
 
      @Override
@@ -70,5 +83,9 @@ class Employee {
 
  interface Swim_able{
     void swim();
+ }
+
+ interface Test1 {
+     int a = 10;
  }
 
