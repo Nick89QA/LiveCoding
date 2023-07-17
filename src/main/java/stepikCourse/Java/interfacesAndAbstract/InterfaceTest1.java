@@ -18,6 +18,13 @@ public class InterfaceTest1 {
         d.swim();
         d.tushitPojar();
         d.testForConstanta();
+/**
+ * 2 интерфейса ссылаются на один и тот же класс потому что он их имплементирует
+ */
+        Help_able h = new Driver();
+        Swim_able s = new Driver();
+
+
 
     }
 
