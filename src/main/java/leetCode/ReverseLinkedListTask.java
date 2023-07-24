@@ -1,6 +1,5 @@
 package leetCode;
 
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedList;
 
@@ -8,7 +7,7 @@ import java.util.LinkedList;
  * Учитывая заголовок односвязного списка, переверните список и верните перевернутый список.
  */
 
-public class LinkedListTask {
+public class ReverseLinkedListTask {
 
     public static void main(String[] args) {
 
