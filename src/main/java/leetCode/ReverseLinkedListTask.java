@@ -11,10 +11,6 @@ public class ReverseLinkedListTask {
 
     public static void main(String[] args) {
 
-
-
-
-
 /////////----перевернуть linkedList---////////////////////////
         LinkedList<Integer> list = new LinkedList<>();
         list.add(22);
