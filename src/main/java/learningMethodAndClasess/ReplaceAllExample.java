@@ -1,4 +1,4 @@
-package learningMethod;
+package learningMethodAndClasess;
 
 public class ReplaceAllExample {
     /**

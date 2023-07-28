@@ -1,4 +1,4 @@
-package learningMethod;
+package learningMethodAndClasess;
 
 /**
  * метод приводит в нижний регистр строку

@@ -1,4 +1,4 @@
-package learningMethod;
+package learningMethodAndClasess;
 
 public class StringMethod {
     public static String name() {
