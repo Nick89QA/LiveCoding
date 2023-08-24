@@ -16,13 +16,14 @@ public abstract class Bird {
         return species;
     }
 
-    public void setSpecies (String species) {
+    public void setSpecies(String species) {
         this.species = species;
     }
 
-    public int getAge()  {
+    public int getAge() {
         return age;
     }
+
     public void setAge(int age) {
         this.age = age;
     }
