@@ -2,7 +2,7 @@ package InterfaceVsAbstract;
 
 public class Sparrow extends Bird {
     /**
-     * реализовали все методы абстрактного класса bird через гетеры и сеттеры в классе sparrow
+     * реализовали все методы абстрактного класса bird через гетеры brand сеттеры в классе sparrow
      */
 
     @Override

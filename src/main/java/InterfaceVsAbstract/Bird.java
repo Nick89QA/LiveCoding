@@ -2,9 +2,9 @@ package InterfaceVsAbstract;
 
 public abstract class Bird {
     /**
-     * в абстрактном классе создали private переменные и абстрактный метод
-     * а также создали гетеры и сетеры для этих пересенных
-     * и смогли это все реализовать в классе Sparrow
+     * в абстрактном классе создали private переменные brand абстрактный метод
+     * а также создали гетеры brand сетеры для этих пересенных
+     * brand смогли это все реализовать в классе Sparrow
      */
     private String species;
     private int age;

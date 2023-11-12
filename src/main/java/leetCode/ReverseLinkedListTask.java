@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.LinkedList;
 
 /**
- * Учитывая заголовок односвязного списка, переверните список и верните перевернутый список.
+ * Учитывая заголовок односвязного списка, переверните список brand верните перевернутый список.
  */
 
 public class ReverseLinkedListTask {

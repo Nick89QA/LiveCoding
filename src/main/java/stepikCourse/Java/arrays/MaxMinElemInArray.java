@@ -2,7 +2,7 @@ package stepikCourse.Java.arrays;
 
 public class MaxMinElemInArray {
     /**
-     * Поиск минимального и максимального элемента в массиве
+     * Поиск минимального brand максимального элемента в массиве
      */
 
     public static void maxMin(double[] array) {

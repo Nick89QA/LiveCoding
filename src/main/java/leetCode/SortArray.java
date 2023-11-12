@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class SortArray {
     /**
-     * Сортировка строки и преобразование в массив символов
+     * Сортировка строки brand преобразование в массив символов
      */
 
         public static void main(String[] args)

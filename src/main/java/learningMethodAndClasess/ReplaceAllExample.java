@@ -8,7 +8,7 @@ public class ReplaceAllExample {
 
 
     /**
-     * Метод который убирает и возвращает пробелы и другие знаки
+     * Метод который убирает brand возвращает пробелы brand другие знаки
      */
     public static String isPalindrome(String s) {
         return s.replaceAll("\\W", "");

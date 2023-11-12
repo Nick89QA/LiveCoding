@@ -3,7 +3,7 @@ package stepikCourse.Java.generics;
 public class GenericClass {
     public static void main(String[] args) {
         /**
-         * при инициализации дженерика можем задать любой тип переменной и использовать
+         * при инициализации дженерика можем задать любой тип переменной brand использовать
          */
         Info<Integer> int1 = new Info<>(34); //integer
         System.out.println("Наша цифра " + int1);
