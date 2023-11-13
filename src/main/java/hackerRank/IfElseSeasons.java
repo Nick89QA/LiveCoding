@@ -1,17 +1,37 @@
 package hackerRank;
 
+import java.util.Scanner;
+
+/**
+ * Найти четное и нечетное число
+ * Если четное вывести "Weird"
+ * Если нечетное вывести "Not Weird"
+ */
 public class IfElseSeasons {
 
-    public static void IfElse(int n) {
-        if (n == 2 || n == 4 || n == 6 || n == 8 || n == 10) {
+    public static void ifElse(int n) {
+     if (n % 2 ==1){
+         System.out.println("Weird");
+     } else if (n >=2 && n <=5) {
+         System.out.println(" Not Wierd");
 
-            System.out.println("Weird");
-        } else if (n == 1 || n == 3 || n == 5 || n == 7 || n == 9) {
-            System.out.println("Not weird");
-        } else {
-            System.out.println("There is nothing");
-        }
+     } else if (n>=6 && n <=20) {
+         System.out.println("Weird");
+
+     }else {
+         System.out.println("Not Weird");
+     }
+
     }
+    private static final Scanner scanner = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        int N = scanner.nextInt();
+        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+       ifElse(N);
+        scanner.close();
+    }
+
 }
 
 
