@@ -1,5 +1,6 @@
 package Polymorphizm;
-
+// создаем конструктор, ложим в него пару переменных,
+// и делаем overload разными значениями через экземпляр класса
 public class Dancer {
     String name;
     int age;
