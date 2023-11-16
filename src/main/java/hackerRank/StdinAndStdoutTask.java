@@ -10,7 +10,7 @@ import java.util.Scanner;
  * Welcome to HackerRank's Java tutorials!
  */
 
-public class StdinStdout {
+public class StdinAndStdoutTask {
     public static void main(String[] args) throws IOException {
         Scanner scan = new Scanner(System.in);
         int i = scan.nextInt();
