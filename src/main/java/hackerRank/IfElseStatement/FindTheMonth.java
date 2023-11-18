@@ -1,4 +1,4 @@
-package hackerRank;
+package hackerRank.IfElseStatement;
 
 public class FindTheMonth {
 
