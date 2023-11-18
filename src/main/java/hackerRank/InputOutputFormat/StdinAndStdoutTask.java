@@ -1,4 +1,4 @@
-package hackerRank;
+package hackerRank.InputOutputFormat;
 
 import java.io.IOException;
 import java.util.Scanner;

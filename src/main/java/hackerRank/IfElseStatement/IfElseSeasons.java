@@ -1,4 +1,4 @@
-package hackerRank;
+package hackerRank.IfElseStatement;
 
 import java.util.Scanner;
 

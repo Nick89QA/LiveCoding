@@ -1,4 +1,4 @@
-package hackerRank;
+package hackerRank.loops;
 
 import java.io.BufferedReader;
 import java.io.IOException;
